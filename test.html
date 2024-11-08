@@ -11,14 +11,30 @@
 </head>
 <body>
     <header class="header">
+        <section class="blackout" id="blackoutJs"></section>
+        <section class="section_menu" id="sectionMenuForJs">
+            <div class="menu" id="menuForJs">
+                <div class="menu_container" id="menuContainer">
+                    <div class="menu_links"><a href="index2.html" target="_blank">Главное меню</a></div>
+                    <div class="menu_links"><a href="index2.html" target="_blank">Связь с нами</a></div>
+                    <div class="menu_links"><a href="index2.html" target="_blank">Покупка</a></div>
+                    <div class="menu_links"><a href="index2.html" target="_blank">Отзывы</a></div>
+                </div>
+            </div>
+        </section>
+
         <div class="container">
             <div class="header_title">
                 <img src="logo (1).svg" alt="logo" class="logo">
-                <button class="burger"> 
-                    <span class="burger_line"> </span>
-                    <span class="burger_line"> </span>
-                    <span class="burger_line"> </span>
-                </button>
+                <div class="burget_button" id="burgerButtonDiv">
+                    <button class="burger" id="burgerButton">
+                        <span class="burger_line"> </span>
+                        <span class="burger_line"> </span>
+                        <span class="burger_line"> </span>
+                    </button>
+
+
+                </div>
             </div>
             <h1 class="h1">
                 Реализуем крупнейшие проекты в России
@@ -28,6 +44,7 @@
             </h4>
         </div>
     </header>
+    
     <main>
 
         <div class="about">
@@ -149,12 +166,12 @@
                             Реализуем самые смелые решения в россии!
                         </h3>
                     </div>
-                    <div class="zapros_ready">
+                    <div class="zapros_ready" id="formFirst">
                         <button class="button_zapros">
                             <span class="span1_zapros">
                                 <img src="zapros.svg" alt="" class="img_zapros">
                             </span>
-                            <span class="button_text_zapros" id="formFirst">
+                            <span class="button_text_zapros">
                                 Ваш запрос
                             </span>
                         </button>
@@ -432,12 +449,12 @@
                             Оставьте заявку и мы свяжемся с вами!
                         </h3>
                     </div>
-                    <div class="zapros_ready_work">
+                    <div class="zapros_ready_work" id="formSecond">
                         <button class="button_zapros_work">
                             <span class="span1_zapros_work">
                                 <img src="zapros.svg" alt="" class="img_zapros_work">
                             </span>
-                            <span class="button_text_zapros_work" id="formSecond">
+                            <span class="button_text_zapros_work">
                                 Ваш запрос
                             </span>
                         </button>
